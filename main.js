@@ -88,7 +88,7 @@ const addToCart = (id) => {
         localStorage.setItem("cart", JSON.stringify(cart));
     }
     showTotal();
-    showCart();
+    // showCart();
 }
 
 viewProducts();
@@ -168,7 +168,6 @@ const emptyAllCart = () =>{
 // ----------------------------------------------------------------------------------------------------------------------------
 
 // Mostrar total
-
 const total = document.getElementById("total");
 
 const showTotal = () => {
