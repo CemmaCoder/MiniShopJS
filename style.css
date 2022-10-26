@@ -1,0 +1,26 @@
+.imgProducts {
+    object-fit: contain;
+    margin-top: 1rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 1.3rem;
+    box-shadow: 2px 2px 0;
+}
+
+.colorBoton {
+    color: white;
+    background-color: rebeccapurple;
+}
+
+.colorBoton:hover {
+    background-color: orangered;
+    color: white;
+}
+
+body {
+    background: linear-gradient(#9600FF, #AEBAF8);
+    font-family: sans-serif;
+}
